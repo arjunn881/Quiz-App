@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.form-container {
+  background-color: #2b3252;
+  width: 450px;
+  color: #fad744;
+  border-radius: 9px;
+  margin: 20px 20px;
+  padding: 15px 20px;
+  position: relative;
+  font-family: "Source Sans Pro", sans-serif;
+}
+h1 {
+  font-family: "Caveat Brush", cursive;
+  font-size: 55px;
+  text-align: center;
+  font-weight: 800;
+  color: #fad744;
+  position: absolute;
+  top: -80px;
+  left: 0px;
+  right: 0px;
+}
+div {
+  margin-bottom: 15px;
+}
+p {
+  margin-bottom: 15px;
+}
+
+.question {
+  margin: 20px 0px;
+  padding: 10px 0px;
+  border-bottom: 2px solid #fad744;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: #fad744;
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 5px 10px;
+  color: #2b3252;
+}
+.score-card {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  border-radius: 9px;
+  margin-top: 20px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: #54c3ef;
+  font-size: 17px;
+  margin: 0 auto;
+  padding: 125px;
+  margin: 0 auto;
+}
